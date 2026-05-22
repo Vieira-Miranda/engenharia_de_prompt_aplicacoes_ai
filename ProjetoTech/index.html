@@ -1,0 +1,369 @@
+<html lang="pt" class="b-root wf-inter-n6-active wf-inter-n7-active wf-inter-n4-active wf-inter-n5-active wf-sora-n6-active wf-sora-n7-active wf-active" style="height: 100%;"><head>
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>index</title>
+<script type="text/javascript">
+    window.bubble_session_uid = '1779492129401x952752390665045600';
+</script>
+<script type="text/javascript">
+    window.headers_source_maps = []
+</script>
+<script type="text/javascript">
+function make_proxy(target, name) {
+  return new Proxy(target, {
+    get: function(target, prop) {
+      if (prop in target) {
+        return target[prop];
+      }
+      throw new Error('The variable ' + name + ' is not fully initialized yet');
+    }
+  });
+}
+window.appquery = make_proxy({
+  app_version: function() { return "test"; },
+  last_change: function() { return "58082403888";},
+}, 'appquery');
+window.Lib = new Proxy(function() {}, {
+  get: function(target, prop) {
+    if (prop === 'is_skeleton') {
+      return true;
+    }
+    throw new Error('The variable ' + Lib + ' is not fully initialized yet');
+  },
+  apply: function() {
+    return make_proxy({
+      current_user: function() {
+        return make_proxy({ id: "1779492129401x952752390665045600" }, 'Lib().current_user');
+      }
+    }, 'Lib()');
+  }
+});
+</script>
+<script type="text/javascript">
+function load_error_function (event) {
+  return window.load_error_log.push({ msg: event.message, error_url: event.filename, line: event.lineno, col: event.colno })
+}
+window.load_error_log = [];
+window.addEventListener('error', load_error_function);
+window.disableLoadErrorFunction = function () {
+  window.removeEventListener('error', load_error_function);
+}
+</script>
+<meta name="referrer" content="origin">
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['pre_early_js'] = Date.now();
+</script><script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="/package/early_js/05ae9fe83d6b755291132aab9d325d70918aafd336da1bd91a41a31c8b25734b/early.js"></script><script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['post_early_js'] = Date.now();
+</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:regular%7CInter:500%7CInter:600%7CInter:700%7CSora:600%7CSora:700"><script type="text/javascript">(function () {
+    function onWebFontFinish () {
+        window.google_web_fonts_active = true;
+if (window.google_web_fonts_active_cb) {
+    window.google_web_fonts_active_cb();
+}
+        (function fontface_loaded_snippet (font) {
+  if (window.fontface_loaded == null) {
+    window.fontface_loaded = {}
+  }
+  if (font != null) {
+    window.fontface_loaded[font] = true
+  } else {
+    window.all_fontface_loaded = true
+  }
+  if (window.fontface_webfonts_loaded_cb) {
+    return window.fontface_webfonts_loaded_cb(font)
+  }
+})()
+    }
+    const WebFontConfig = {'google': { families: ["Inter:regular","Inter:500","Inter:600","Inter:700","Sora:600","Sora:700"] },
+        active: function() {
+            onWebFontFinish()
+        },
+        inactive: function() {
+            console.log('Failed to load all the fonts');
+            onWebFontFinish()
+        },
+        fontinactive: function(family_name, fvd) {
+            console.log('fontinactive being called for ' + family_name + ', Google says the fonts didnt render');
+            onWebFontFinish()
+        }
+    }
+        window.WebFont.load(WebFontConfig);
+})();</script>
+<script>
+(function initialize_data() {
+const xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+    if (this.readyState === 4 && this.status === 200) {
+        const data = JSON.parse(this.responseText);
+
+        function init_data() {
+            data.forEach(function(d) {
+                Lib().db_instance().initialize_data(d.id, d.data, d.type, d.version);
+            })
+        }
+
+        if (window.Lib && window.Lib.is_skeleton == null) {
+            init_data();
+        } else {
+            window.Lib_post_load = init_data;
+        }
+    }
+};
+xhr.open("GET", "https://vieiramirandaramon.bubbleapps.io/version-test/api/1.1/init/data?location=" + encodeURIComponent(window.location.href), true);
+xhr.send();
+})();
+</script>
+<script type="text/javascript">window.gm_key = "AIzaSyAlT1MzDJL1hTzjgn_-PbAD3NQEIKjcJi4";</script>
+<script type="text/javascript">window.glrl_key_status = false;</script>
+<script type="text/javascript">window.bubble_page_load_id = "1779492129458x1541";</script>
+<script type="text/javascript">window.bubble_plp_token = "F5GZ6OWV3wKCppurJLGSxviQYwwI5N8+eRKCzfqitoA=";</script>
+<script type="text/javascript">window.bubble_is_leanjs = false;</script>
+<script type="text/javascript">window.bubble_shim_modules = false;</script>
+<link rel="icon" type="image/png" href="https://5a591419a54a740d821544be1ea074b7.cdn.bubble.io/f1530294839424x143528842134401200/Icon-no-clearspace.png">
+<meta name="fragment" content="!">
+<meta name="description" content="Bubble introduces a new way to build a web application. It’s a point-and-click programming tool. Bubble hosts all applications on its cloud platform.">
+<meta name="description" content="Bubble introduces a new way to build a web application. It’s a point-and-click programming tool. Bubble hosts all applications on its cloud platform.">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="Check out my Bubble app">
+<meta name="twitter:title" content="Check out my Bubble app">
+<meta property="og:site_name" content="Bubble">
+<meta name="twitter:site_name" content="Bubble">
+<meta property="og:description" content="Bubble is the only platform that lets you switch between AI prompting and visual editing to go beyond prototypes and launch real apps — no code required. ">
+<meta name="twitter:description" content="Bubble is the only platform that lets you switch between AI prompting and visual editing to go beyond prototypes and launch real apps — no code required. ">
+<link rel="image_src" href="https://5a591419a54a740d821544be1ea074b7.cdn.bubble.io/f1762463484754x595287411041153000/Bubbleio%20opengraph.png">
+<meta property="og:image" content="https://5a591419a54a740d821544be1ea074b7.cdn.bubble.io/f1762463484754x595287411041153000/Bubbleio%20opengraph.png">
+<meta name="twitter:image:src" content="https://5a591419a54a740d821544be1ea074b7.cdn.bubble.io/f1762463484754x595287411041153000/Bubbleio%20opengraph.png">
+<meta property="og:url" content="https://vieiramirandaramon.bubbleapps.io/version-test">
+<meta property="og:type" content="website">
+<meta property="fb:app_id" content="340887986039814">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script type="text/javascript">window._p = '{"id":"app_free2","no_branding":false,"import_export_csv":false,"custom_domain":false}';</script>
+<script type="text/javascript">window.bubble_page_name = "index";</script>
+<script type="text/javascript">window.__bubble_module_mode = false;</script>
+<link type="text/css" href="/package/run_css/4d1b28d414d6450f5ef0f1d1d7d1f20dbb01df766e281b859fa4843159b44af9/vieiramirandaramon/test/index/xfalse/xfalse/run.css" rel="stylesheet">
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['pre_run_js'] = Date.now();
+</script>
+<script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="/package/pre_run_jquery_js/dee903a9e36db713e4c86d0cdd96d921e37be0c1293ed8dee29e2e4d7713b9ff/pre_run_jquery.js"></script>
+<script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="/package/run_js/0dfafaf5e4f0746e2467a76ba66612acfb96c9d02d6cc149f5f65641c4636c0a/xfalse/x33/run.js"></script>
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['post_run_js'] = Date.now();
+</script>
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['pre_static_js'] = Date.now();
+</script><script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="/package/static_js/571783e4ae7eefd9be0f850dfc27fc57309b1282e6b3d9af67e9b47a13429543/vieiramirandaramon/test/index/xnull/xfalse/xfalse/xfalse/static.js"></script><script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['post_static_js'] = Date.now();
+</script>
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['pre_dynamic_js'] = Date.now();
+</script><script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="/package/dynamic_js/b4f588e01874e4d1540a2f95a73cbbe7b73599bed33d3a50af04855629a99658/vieiramirandaramon/test/index/xnull/xfalse/xfalse/pt_br/xfalse/xfalse/dynamic.js"></script><script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['post_dynamic_js'] = Date.now();
+</script>
+<script type="text/javascript">window._bubble_page_load_data.js_execution_timings.plugin_js_start_execution = Date.now();</script>
+<script type="text/javascript">window._bubble_page_load_data.js_execution_timings.plugin_js_end_execution = Date.now();</script>
+</head>
+<body style="height: 100%;"><script type="text/javascript">
+window.addEventListener('DOMContentLoaded', function () {
+  if (window.appquery == null) {
+    (function() {
+    const html = `
+      <div class="error-card">
+        <div class="error-section">
+          <div class="error-title">Your browser was unable to load some necessary resources</div>
+          <div class="error-message">Contact your IT network administrator to allow access to:
+    • d3dqmih97rcqmh.cloudfront.net
+    • 5a591419a54a740d821544be1ea074b7.cdn.bubble.io/
+    • d1muf25xaso8hp.cloudfront.net</div>
+        </div>
+      </div>
+    `
+
+    const css = document.createElement('style')
+    css.type = 'text/css'
+    css.appendChild(
+      document.createTextNode(`
+      .error-overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.30);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        position: fixed;
+        inset: 0;
+        z-index: 999999;
+      }
+
+      .error-card {
+        width: 500px;
+        margin: 40px;
+        background: white;
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.10);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .error-section {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .error-title {
+        color: #1A1A1A;
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+        font-weight: 600;
+        line-height: 28px;
+      }
+
+      .error-message {
+        color: #525252;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        font-weight: 400;
+        line-height: 20px;
+        white-space: pre-wrap;
+      }
+    `)
+    )
+    document.head.appendChild(css)
+
+    const container = document.createElement('div')
+    container.className = 'error-overlay'
+    container.innerHTML = html
+    document.body.appendChild(container)
+  })()
+    httpRequest = new XMLHttpRequest();
+httpRequest.open('POST', '/user/m', true);
+httpRequest.setRequestHeader('Content-Type', 'application/json');
+httpRequest.send(JSON.stringify({measures: {page_load_error: 1, url: document.location.href, errors: window.load_error_log}}));
+  };
+});
+</script><script type="text/javascript">window.addEventListener('DOMContentLoaded', function () {if (window.appquery && window.app == null) {(function() {
+    const html = `
+      <div class="error-card">
+        <div class="error-section">
+          <div class="error-title">Your browser was unable to load the application</div>
+          <div class="error-message">We&#39;ve been notified of the issue. Please try again in a few moments and make sure not to use ad-blockers.</div>
+        </div>
+      </div>
+    `
+
+    const css = document.createElement('style')
+    css.type = 'text/css'
+    css.appendChild(
+      document.createTextNode(`
+      .error-overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.30);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        position: fixed;
+        inset: 0;
+        z-index: 999999;
+      }
+
+      .error-card {
+        width: 500px;
+        margin: 40px;
+        background: white;
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.10);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .error-section {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .error-title {
+        color: #1A1A1A;
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+        font-weight: 600;
+        line-height: 28px;
+      }
+
+      .error-message {
+        color: #525252;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        font-weight: 400;
+        line-height: 20px;
+        white-space: pre-wrap;
+      }
+    `)
+    )
+    document.head.appendChild(css)
+
+    const container = document.createElement('div')
+    container.className = 'error-overlay'
+    container.innerHTML = html
+    document.body.appendChild(container)
+  })()}});</script>
+<img style="display: none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+
+<div class="bubble-element Page baTaGaYf bubble-r-container flex column main-page"><div class="bubble-element CustomElement ai_aRaPnoyaReaN bubble-r-container flex row" data-outline="true" style="background-color: var(--color_surface_default); box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;"><a class="bubble-element Link ai_aRaPnoxaLaPaY clickable-element" target="_self" href="https://vieiramirandaramon.bubbleapps.io/version-test/"><div class="fa fa-cloud-sun"></div> ClimaVeste</a><div class="bubble-element Group ai_aRaPnoxaLaPb bubble-r-container flex row" style=""><a class="bubble-element Link ai_aRaPnoxaLaPc clickable-element" target="_self" href="https://vieiramirandaramon.bubbleapps.io/version-test/" style="background: none transparent;">Dashboard</a><a class="bubble-element Link ai_aRaPnoxaLaPd clickable-element" target="_self" href="https://vieiramirandaramon.bubbleapps.io/version-test/alert-history">Alert History</a><a class="bubble-element Link ai_aRaPnoxaLaPe clickable-element" target="_self" href="https://vieiramirandaramon.bubbleapps.io/version-test/settings" style="background: none transparent;">Settings</a><button class="clickable-element bubble-element Button ai_aRaPnoxaLaPf" style="background-color: var(--color_primary_default); visibility: unset;">Log In</button><button class="clickable-element bubble-element Button ai_aRaPnoxaLaPg" style="background-color: var(--color_aiRPnonzRV_default); visibility: unset; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Sign Up</button></div><button class="flex-aligned-button bubble-element Button ai_aRaPnoxaLaPi" style="display: none;"><span class="icon-item"><svg viewBox="0 0 32 32" data-icon-set="fa" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/fontawesome-4.7.0.svg#fa-bars"></use></svg></span></button></div><div class="bubble-element Group ai_aRaPnoxaLaVp bubble-r-container flex column" style="background-color: var(--color_background_default);"><div class="bubble-element Group ai_aRaPnoxaLaVq bubble-r-container flex column"><div class="bubble-element Text ai_aRaPnoxaLaVr">5/22/26</div><div class="bubble-element Text ai_aRaPnoxaLaVs">Good morning, </div><div class="bubble-element Text ai_aRaPnoxaLaVt">Here's your friendly forecast and a little outfit nudge before you head out.</div></div><div class="bubble-element Group ai_aRaPnoxaLaVu bubble-r-container flex row"><div class="bubble-element Group ai_aRaPnoxaLaVv bubble-r-container flex column" data-outline="true" style="max-height: unset; background-color: var(--color_surface_default); box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;"><div class="bubble-element Group ai_aRaPnoxaLaVw bubble-r-container flex row"><div class="bubble-element Group ai_aRaPnoxaLaVx bubble-r-container flex column"><div class="bubble-element Text ai_aRaPnoxaLaVy">Today in</div><div class="bubble-element Text ai_aRaPnoxaLaVz"></div></div><div class="bubble-element Group ai_aRaPnoxaLaWaA bubble-r-container flex row" style="background-color: var(--color_aiRPnonzRV_default);"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaWaB" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="phosphor" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/phosphor-2.1.0-fill.svg#sun-horizon"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaWaC"></div></div></div><div class="bubble-element Group ai_aRaPnoxaLaWaD bubble-r-container flex row"><div class="bubble-element Group ai_aRaPnoxaLaWaE bubble-r-container flex column"><div class="bubble-element Group ai_aRaPnoxaLaWaF bubble-r-container flex row"><div class="bubble-element Text ai_aRaPnoxaLaWaG">°</div><div class="bubble-element Text ai_aRaPnoxaLaWaH">Celsius</div></div><div class="bubble-element Text ai_aRaPnoxaLaWaI">Feels light and bright — a gentle breeze expected.</div></div><div class="bubble-element Group ai_aRaPnoxaLaWaJ bubble-r-container flex column" style="background-color: var(--color_aiRPnonzRT_default);"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaWaK" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="phosphor" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/phosphor-2.1.0-duotone.svg#sun"></use></svg></button></div></div><div class="bubble-element Group ai_aRaPnoxaLaWaL bubble-r-container flex row"><div class="bubble-element Group ai_aRaPnoxaLaWaM bubble-r-container flex column" style="background-color: var(--color_background_default);"><div class="bubble-element Group ai_aRaPnoxaLaWaN bubble-r-container flex row"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaWaO" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="phosphor" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/phosphor-2.1.0-duotone.svg#drop"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaWaP">Humidity</div></div><div class="bubble-element Text ai_aRaPnoxaLaWaQ">58%</div></div><div class="bubble-element Group ai_aRaPnoxaLaWaR bubble-r-container flex column" style="background-color: var(--color_background_default);"><div class="bubble-element Group ai_aRaPnoxaLaWaS bubble-r-container flex row"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaWaT" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="phosphor" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/phosphor-2.1.0-duotone.svg#wind"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaWaU">Wind</div></div><div class="bubble-element Text ai_aRaPnoxaLaWaV">12 km/h</div></div><div class="bubble-element Group ai_aRaPnoxaLaWaW bubble-r-container flex column" style="background-color: var(--color_background_default);"><div class="bubble-element Group ai_aRaPnoxaLaWaX bubble-r-container flex row"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaWaY" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="phosphor" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/phosphor-2.1.0-duotone.svg#sun-dim"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaWaZ">UV Index</div></div><div class="bubble-element Text ai_aRaPnoxaLaWa">Moderate</div></div></div></div><div class="bubble-element Group ai_aRaPnoxaLaWb bubble-r-container flex column" data-outline="true" style="max-height: unset; background-color: var(--color_primary_default); box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;"><div class="bubble-element Group ai_aRaPnoxaLaWc bubble-r-container flex row"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaWd" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="phosphor" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/phosphor-2.1.0-duotone.svg#t-shirt"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaWe">What to wear today</div></div><div class="bubble-element Text ai_aRaPnoxaLaWf"></div><div class="bubble-element Group ai_aRaPnoxaLaWg bubble-r-container flex row"><div class="bubble-element Group ai_aRaPnoxaLaWh bubble-r-container flex row" style="background-color: var(--color_aiRPnonzRf_default);"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaWi" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="phosphor" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/phosphor-2.1.0-duotone.svg#t-shirt"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaWj">Light tee</div></div><div class="bubble-element Group ai_aRaPnoxaLaWk bubble-r-container flex row" style="background-color: var(--color_aiRPnonzRf_default);"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaWl" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="phosphor" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/phosphor-2.1.0-duotone.svg#sun"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaWm">Sunglasses</div></div><div class="bubble-element Group ai_aRaPnoxaLaWn bubble-r-container flex row" style="background-color: var(--color_aiRPnonzRf_default);"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaWo" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="phosphor" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/phosphor-2.1.0-duotone.svg#sneaker"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaWp">Sneakers</div></div></div></div></div><div class="bubble-element Group ai_aRaPnoxaLaWq bubble-r-container flex row"><div class="bubble-element Group ai_aRaPnoxaLaWr bubble-r-container flex column" data-outline="true" style="max-height: unset; background-color: var(--color_surface_default); box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;"><div class="bubble-element Group ai_aRaPnoxaLaWs bubble-r-container flex row"><div class="bubble-element Group ai_aRaPnoxaLaWt bubble-r-container flex row"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaWu" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="phosphor" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/phosphor-2.1.0-duotone.svg#bell-ringing"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaWv">Your alert schedule</div></div><div class="bubble-element Group ai_aRaPnoxaLaWw bubble-r-container flex row" style="background-color: var(--color_success_default);"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaWx" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="phosphor" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/phosphor-2.1.0-fill.svg#check-circle"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaWy">null</div></div></div><div class="bubble-element Group ai_aRaPnoxaLaWz bubble-r-container flex column"><div class="bubble-element Text ai_aRaPnoxaLaXaA">Next alert</div><div class="bubble-element Text ai_aRaPnoxaLaXaB">Tomorrow at </div></div><div class="bubble-element Group ai_aRaPnoxaLaXaC bubble-r-container flex column"><div class="bubble-element Text ai_aRaPnoxaLaXaD">Active days</div><div class="bubble-element Text ai_aRaPnoxaLaXaE"></div></div><a class="bubble-element Link ai_aRaPnoxaLaXaF clickable-element" target="_self" href="https://vieiramirandaramon.bubbleapps.io/version-test/settings">Adjust schedule in Settings →</a></div><div class="bubble-element Group ai_aRaPnoxaLaXaG bubble-r-container flex column" data-outline="true" style="max-height: unset; background-color: var(--color_surface_default); box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;"><div class="bubble-element Group ai_aRaPnoxaLaXaH bubble-r-container flex row"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaXaI" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="phosphor" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/phosphor-2.1.0-duotone.svg#lightbulb"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaXaJ">Friendly tip</div></div><div class="bubble-element Text ai_aRaPnoxaLaXaK">Mornings can run a few degrees cooler than the forecast. A light layer you can tie around your waist is your best friend on bright days like today.</div><div class="bubble-element Group ai_aRaPnoxaLaXaL bubble-r-container flex row" style="background-color: var(--color_aiRPnonzRY_default);"></div><div class="bubble-element Text ai_aRaPnoxaLaXaM">Sent with care from your ClimaVeste companion ☁️</div></div><div class="bubble-element Group ai_aRaPnoxaLaXaN bubble-r-container flex column" data-outline="true" style="max-height: unset; background-color: var(--color_aiRPnonzRT_default); box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;"><div class="bubble-element Image ai_aRaPnoxaLaXaO"><img src="https://images.unsplash.com/photo-1682048717093-b2b8bd59d294?ixid=M3w2OTk3Mjl8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg4OTA1NDN8&amp;ixlib=rb-4.1.0" alt="a view of a city skyline with tall buildings"></div><div class="bubble-element Group ai_aRaPnoxaLaXaP bubble-r-container flex column"><div class="bubble-element Text ai_aRaPnoxaLaXaQ">A bright start ahead</div><div class="bubble-element Text ai_aRaPnoxaLaXaR">Step out gently — the city is glowing this morning.</div></div></div></div></div></div><div class="bubble-element CustomElement ai_aRaPnoyaReaM floating-group bubble-r-container flex column" style="background-color: var(--color_surface_default);"><a class="bubble-element Link ai_aRaPnoxaLaTu clickable-element" target="_self" href="https://vieiramirandaramon.bubbleapps.io/version-test/"><div class="fa fa-cloud-sun"></div> ClimaVeste</a><div class="bubble-element Group ai_aRaPnoxaLaTx bubble-r-container flex column" style="background-color: var(--color_aiRPnonzRT_default);"><div class="bubble-element Text ai_aRaPnoxaLaTy">Good morning</div><div class="bubble-element Text ai_aRaPnoxaLaTz">It's a soft, sunny start ☀️</div></div><div class="bubble-element Group ai_aRaPnoxaLaUaA bubble-r-container flex column"><div class="bubble-element Text ai_aRaPnoxaLaUaB">Menu</div><a class="bubble-element Link ai_aRaPnoxaLaUaC clickable-element" target="_self" href="https://vieiramirandaramon.bubbleapps.io/version-test/"><div class="fa fa-sun"></div> Today's Weather</a><a class="bubble-element Link ai_aRaPnoxaLaUaF clickable-element" target="_self" href="https://vieiramirandaramon.bubbleapps.io/version-test/alert-history"><div class="fa fa-cloud-rain"></div> Alert History</a><a class="bubble-element Link ai_aRaPnoxaLaUaI clickable-element" target="_self" href="https://vieiramirandaramon.bubbleapps.io/version-test/settings"><div class="fa fa-user-gear"></div> Profile &amp; Settings</a></div><div class="bubble-element Group ai_aRaPnoxaLaUaL bubble-r-container flex column" style="background-color: var(--color_background_default);"><div class="bubble-element Text ai_aRaPnoxaLaUaM">Next alert</div><div class="bubble-element Group ai_aRaPnoxaLaUaN bubble-r-container flex row"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaUaO" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="fa" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/fontawesome-4.7.0.svg#fa-bell"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaUaP">Tomorrow, 7:00 AM</div></div><div class="bubble-element Text ai_aRaPnoxaLaUaQ">Mon–Fri · Lisbon forecast</div></div><div class="bubble-element Group ai_aRaPnoxaLaUaR bubble-r-container flex column" style="background-color: var(--color_primary_default);"><button style="display:flex" class="bubble-element Icon ai_aRaPnoxaLaUaS" tabindex=""><svg viewBox="0 0 32 32" data-icon-set="fa" style="width: 100%; height: 100%;"><use width="32" height="32" href="/static/icon_libraries/fontawesome-4.7.0.svg#fa-umbrella"></use></svg></button><div class="bubble-element Text ai_aRaPnoxaLaUaT">Friendly tip</div><div class="bubble-element Text ai_aRaPnoxaLaUaU">Layer up gently — mornings can fool you before noon.</div></div></div><div class="page-is-loaded"></div><div style="width: 128px !important; position: fixed !important; bottom: 10px !important; right: 10px !important; height: 29px !important; z-index: 100000000000 !important; box-shadow: 0px 0px 20px 0 #00000069 !important; background: #0205D3 !important; border-radius: 3px !important;"><div style="position: absolute;" class="notranslate" translate="no"><div style=""><img alt="Bubble" src="https://a3f482aa37473c68f97b76bd2e4a3782.cdn.bubble.io/f1585607370503x914556455591480200/banner-icon.svg" style="width: 15px !important; margin-top: 7px !important; margin-left: 6px !important; float: left;"><div style="color: white; font-size: 12px; font-family: Arial, sans-serif; margin-top: 9px; float: left; margin-left: 8px; width: 95px; font-weight: bold;">Built on Bubble</div></div></div><a target="_blank" style="width: 100%; height: 100%; position: absolute;" href="https://bubble.io?utm_source=app_mention&amp;utm_content=vieiramirandaramon"></a></div></body></html>
