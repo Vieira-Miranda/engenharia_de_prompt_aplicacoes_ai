@@ -1,3 +1,8 @@
+# Alunos:
+Ramon Vieira Miranda | Maria Eduarda Santos Silva | João Victor Sousa dos Anjos Miranda
+
+---
+# Projeto Módulo 3 - ClimaVeste | LowCode
 # 📌 Desafio Escolhido
 
 Criação de um sistema inteligente de alerta climático e recomendação de vestuário.
