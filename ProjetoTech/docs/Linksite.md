@@ -1,1 +1,1 @@
-[solução](https://vieiramirandaramon.bubbleapps.io/version-test)
+[Acesse o site clicando aqui](https://vieiramirandaramon.bubbleapps.io/version-test)
